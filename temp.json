@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": 73.1382,
+        "lat": 33.1907
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 68.67,
+        "feels_like": 67.01,
+        "temp_min": 68.67,
+        "temp_max": 68.67,
+        "pressure": 1014,
+        "humidity": 38,
+        "sea_level": 1014,
+        "grnd_level": 953
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.63,
+        "deg": 56,
+        "gust": 4.79
+    },
+    "clouds": {
+        "all": 93
+    },
+    "dt": 1667247900,
+    "sys": {
+        "type": 2,
+        "id": 2007435,
+        "country": "PK",
+        "sunrise": 1667265920,
+        "sunset": 1667304996
+    },
+    "timezone": 18000,
+    "id": 1180379,
+    "name": "Daultala",
+    "cod": 200
+}
