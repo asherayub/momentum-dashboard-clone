@@ -35,6 +35,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   flex: 2;
 }
 .wrapper .row3 {
@@ -68,6 +69,31 @@ body {
 }
 #time {
   font-size: 5rem;
+}
+
+.search form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  border-radius: 1.4rem;
+  background-color: #fff;
+}
+.search form input{
+  width: 35vw;
+  min-width: 400px;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.search form button{
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 .weather {
   display: flex;

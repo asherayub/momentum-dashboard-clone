@@ -57,7 +57,7 @@ navigator.geolocation.getCurrentPosition((position) => {
     .then((data) => {
       document.querySelector(".weather").innerHTML = `
       <div class="weather__inner">
-      <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="" />
+      <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="weather-icon" />
             <h4>${data.main.temp}&deg;</h4>
             </div>
             <h2>${data.name}</h2>
@@ -80,6 +80,17 @@ const todos = () => {
     });
   });
 };
+
+const searchBar = () => {
+  document.querySelector(".search").innerHTML = `
+  <form action="https://www.google.com/search" method="get">
+  <button id="search__btn"><i class="fas fa-magnifying-glass"></i></button>
+    <input name="q" type="text" placeholder="Search Google or type a URL"  autocomplete="off" autofocus />
+  </form>
+  `;
+};
+
+searchBar();
 getUnsplashBackground();
 getCoinData();
 setInterval(() => {
